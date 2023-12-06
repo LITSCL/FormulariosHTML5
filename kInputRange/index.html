@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>InputTRange</title>
+</head>
+<body>
+    <form action="index.html" method="GET">
+
+        <!-- El rango por defecto es de 0 a 100. -->
+        <label for="rango1">Indique su nivel:</label>
+        <input type="range" name="rango1"><br/>
+
+        <!-- En este caso se añadieron atributos para controlar el valor ingresado por el usuario. -->
+        <label for="rango2">Indique su nivel (de 1 a 10, de 3 en 3):</label>
+        <input type="range" name="rango2" min="1" max="10" step="3">
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+</body>
+</html>
